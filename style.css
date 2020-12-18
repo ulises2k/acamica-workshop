@@ -48,9 +48,16 @@
   header nav ul li:last-child {
     padding: 0;
   }
-
-
-
+  aside {
+    width: 300px;
+    padding: 40px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    border-right: 2px solid #000;
+  }
+  aside ul {
+    list-style: none;
+  }
   main {
     padding: 40px 10%;
     width: calc( 100% - 300px);
@@ -70,8 +77,6 @@
   }
   main .art_principal article img {
     margin-right: 20px;
-    width: 300px;
-    height: 200px;
   }
   main .art_principal article:nth-child(2n) img {
     margin-right: 0;
