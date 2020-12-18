@@ -10,14 +10,24 @@
 </head>
 <body>
     <header>
-        <img src="http://via.placeholder.com/50x50" alt="">
-        <nav>
-            <ul>
-                <li>NYC</li>
-                <li>Destinos</li>
-                <li>Servicios</li>
-                <li>Contacto</li>
-            </ul>
+        <nav class="navbar fixed-top navbar-light bg-white">
+            <div class="container-fluid">
+              <a class="navbar-brand font-weight-bold" href="#">Sitio de turismo</a>
+              <ul class="nav justify-content-end ">
+                <li class="nav-item active">
+                  <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">NYC</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#" >Contacto</a>
+                </li>
+              </ul>
+            </div>            
         </nav>
     </header>
     <div class="container">
@@ -122,6 +132,38 @@
                 <h2>Title</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti odio esse laborum voluptatum cumque tempora! Culpa, eveniet fugiat veniam aliquam voluptatibus aut aspernatur ducimus, vel impedit nihil facilis distinctio velit?</p>
             </article>
+        </section>
+        <section class="seccion__servicios pt-5">
+            <h2 class="text-center">SERVICIOS</h2>
+            <div class="container d-flex justify-content-center pt-3">
+                <div class="col-12 col-md-3">
+                  <div class="card border-0">
+                    <img src="https://www.flaticon.es/svg/static/icons/svg/17/17981.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Aeropuertos</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-3">
+                  <div class="card border-0">
+                    <img src="av-icon.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Asistencia al viajero</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-3">
+                  <div class="card border-0">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tips y actividades</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </section>
     </main>
 </body>
